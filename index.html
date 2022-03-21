@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coffee Hub</title>
+        <meta charset="UTF-8">
+        <style>
+            li
+            {
+                float:left;
+            }
+            ul{
+                list-style-type: none;
+                margin: 10px;
+                /* padding-right: 50px; */
+                padding: 6px;
+                padding-left: 5px;
+                overflow: hidden;
+                background-color:#2b232330;
+                position: fixed;
+                width: 97%;
+                font-weight: 400;
+            }
+           li a
+            {
+                padding-left: 8px;
+                display:block;
+                color:rgb(0, 0, 0);
+                text-decoration: none;
+                padding: 15px;
+                margin:2px;
+                border: 2px;
+                align-items: stretch;
+               
+            }
+            li a:hover
+            {
+               background-color: rgb(235, 238, 247);
+            }
+            #pro
+            {
+                float:right;
+                background-color: rgb(255, 255, 255);
+                border: 2px solid white;
+                border-radius: 4px;
+                cursor: pointer;
+                /* padding:12px 75px; */
+                /* padding:5px; */
+            }
+
+            .sub{
+                align-items: center;
+                background-color: black;
+                color: white;
+                border: 2px solid white;
+                border-radius: 2px;
+                /* padding: 50%; */
+                padding-top: 50%;
+                text-decoration: none;
+                color: white;
+            }
+          body{
+              background-image: url();
+              /* opacity: 0.4; */
+          }
+         img{
+             width:100%;
+         }
+         #heading{
+             text-align: center;
+             font-size: larger;
+             font-family:'Courgette', cursive;
+             font-weight: 200;
+             padding: 75px;
+             padding-bottom: 25px;
+             /* padding-top: 55px; */
+         }
+         #about{
+            background-color: beige;
+             text-align: center;
+             padding: 40px;
+             font-size: 30px;
+             font-weight: 50px;
+             /* padding-top: 50px;
+             padding-bottom: 50px; */
+             
+         }
+        h3{
+            font-size: 46px;
+            /* color:white;
+            background-color: black; */
+            /* padding: 35px; */
+        }
+        blockquote{
+            font-size: medium;
+            font-family: 'Courgette', cursive;;
+        }
+         
+        #services{
+            background-color: rgb(112, 219, 233);
+        }
+
+        .container
+            {
+               
+                margin:4px;
+                padding: 80px;
+                border:2px solid black;
+                display:inline-block;
+                width:48%;
+                box-sizing:border-box;
+                /* font-family:'Courgette', cursive;  */
+                font-size: 30px;
+                font-weight: 400;
+                text-align: center;
+                /* padding-left: 50px;
+                padding-right: 50px;
+                align-items: center; */
+                color:white;
+            }
+
+     
+
+        section{
+            padding-left: 11%;
+            padding-right: 11%;
+            padding-top: 11%;
+            padding-bottom: 11%;
+            /* padding-block: 10%; */
+            /* padding-inline: 21%; */
+            background-image: url(https://images.alphacoders.com/741/thumb-1920-74183.jpg);
+        }
+
+        .form{
+                /* background-color: rgb(75, 128, 163);
+                color:aquamarine; */
+                color: rgb(17, 15, 15);
+                font-size: 30px;
+                font-weight: 100;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                box-sizing: border-box;
+                border: 3px solid rgb(61, 54, 54);
+                border-radius: 4px;
+                padding-left: 6%;
+                padding-bottom: 6%;
+                padding-top: 6%;
+                padding-right: 6%;
+                background-color: rgba(192, 199, 199, 0.849);
+                /* background-image: url(https://images.alphacoders.com/741/thumb-1920-74183.jpg); */
+            }
+
+        #col{
+            background-color: rgb(255, 255, 255);
+        }
+
+        #btn
+            {
+                background-color: rgb(17, 27, 24);
+                padding-top: 25px;
+                padding-bottom: 25px;
+                padding-left: 50px;
+                padding-right: 50px;
+                border: none;
+                cursor:pointer;
+                font-size: 18px;
+                border-radius: 4px;
+               
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+
+        
+        #c1{
+            background-image: url(https://static.vecteezy.com/system/resources/previews/000/433/328/large_2x/vector-a-green-nature-background.jpg);
+            background-size: cover;
+        }
+
+        #c2{
+            background-image: url(https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40650/FreevectorSwimmingPool-BackgroundAS0621_generated.jpg);
+            background-size: cover;
+        }
+
+        #c3{
+            background-image: url(https://www.hotelmanagement-network.com/wp-content/uploads/sites/25/2019/07/wifi-devices.jpg);
+            background-size: cover;
+        }
+
+        #c4{
+            background-image: url(https://themeydanhotel.com/sites/default/files/2017-11/inroom1.jpg);
+            background-size: cover;
+        }
+
+        /* #c4{
+            background-image: url();
+        } */
+
+
+      
+        
+        </style>
+    </head>
+    <body id="col">
+        <header>
+            <nav id="Top">
+                <ul>
+                    <li><a href="home.html">Home  </a></li> 
+                    <li><a href="Blog.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <button id="pro"><li><a href="bookyourroom.html">Book A Room</a></li></button>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="heading">
+                <h1>Stay and Explore</h1>
+                <p>In mid of your destination</p>
+            </div>
+            <div>
+            <img src="https://www.ekeralatourism.net/wp-content/uploads/2018/03/Alleppey.jpg" alt="tourist">
+            </div>
+                <h3 align="center">About us</h3>
+                <div id="about">
+                    <!-- <h3 align="center">ABOUT</h3> -->
+                    <q>Stay and Explore</q>
+                    <blockquote>Since 2000,<em>‘Stay and Explore’</em> has been focused on bringing our customers the best in esteem and quality travel game plans. We are enthusiastic about movement and sharing the world’s marvels on the relaxation travel side.
+
+                        We’re a worker-claimed travel organization secured by our qualities, trustworthiness, and commitment to client benefit.Fulfilled workers lead to fulfilled clients. We know the development and accomplishment of our organization relies on satisfying our customer’s needs each day. That is additionally our guarantee.
+
+                    </blockquote></div>
+           <h3 align="center" class="serve">Our Services</h3>
+           <section id="serve">
+            <div class="container" id="c1">
+                <h4>Garden</h4>
+                
+            </div>
+
+            <div class="container" id="c2">
+                <h4>Pool</h4>
+            </div>
+
+            <div class="container" id="c3">
+                <h4>Free wi-fi</h4>
+            </div>
+
+            <div class="container" id="c4">
+                <h4>In-Room Dining Service</h4> 
+            </div>
+           </section>
+           
+           <h3 align="center" class="serve">Contact Us</h3>
+           <form align="center" class="form">
+            Your name:  <input type=" text " name=" Username">
+            <br>
+            <br>
+            Email:  <input type=" email " name=" Email ">
+            <br>
+            <br>
+            Your Subject:  <input type=" text " name="Subject">
+            <br>
+            <br>
+            Enter your message:  <input type="textarea" name="text">
+            <br>
+            <br>
+            <!-- <button id="sub"> -->
+                <!-- Submit -->
+                <button id="btn"><a href="contact.html">Submit</a></button>
+        <!-- </button> -->
+        </form>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
